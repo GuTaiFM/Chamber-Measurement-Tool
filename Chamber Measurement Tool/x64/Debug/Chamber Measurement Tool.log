@@ -1,0 +1,12 @@
+﻿  AnalyserObj.cpp
+  Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+  - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+  - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+  Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+AnalyserObj.obj : error LNK2019: unresolved external symbol "class boost::system::error_category const & __cdecl boost::system::system_category(void)" (?system_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "void __cdecl boost::system::`dynamic initializer for 'native_ecat''(void)" (??__Enative_ecat@system@boost@@YAXXZ)
+AnalyserObj.obj : error LNK2019: unresolved external symbol "class boost::system::error_category const & __cdecl boost::system::generic_category(void)" (?generic_category@system@boost@@YAAEBVerror_category@12@XZ) referenced in function "void __cdecl boost::system::`dynamic initializer for 'errno_ecat''(void)" (??__Eerrno_ecat@system@boost@@YAXXZ)
+C:\Users\Will\Development\Libraries\boost_1_61_0\stage\lib\libboost_system-vc140-mt-gd-1_61.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Will\Development\Libraries\boost_1_61_0\stage\lib\libboost_date_time-vc140-mt-gd-1_61.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Will\Development\Libraries\boost_1_61_0\stage\lib\libboost_chrono-vc140-mt-gd-1_61.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Will\Development\Libraries\boost_1_61_0\stage\lib\libboost_thread-vc140-mt-gd-1_61.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+C:\Users\Will\Google Drive\Development\Chamber Measurement Tool\x64\Debug\Chamber Measurement Tool.exe : fatal error LNK1120: 2 unresolved externals
