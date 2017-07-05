@@ -18,7 +18,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AnalyserObj.cpp">
+    <ClCompile Include="SerialRotatorObj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -26,7 +26,13 @@
     <ClInclude Include="AnalyserObj.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CustomExceptions.h">
+    <ClInclude Include="RotatorObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialRotatorObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SerialRotatorException.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
